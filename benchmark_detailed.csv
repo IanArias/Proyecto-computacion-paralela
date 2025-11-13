@@ -1,0 +1,7 @@
+library,operation,time_s,mem_mb_diff
+Polars,Carga CSV,3.6717990001197904,1944.75390625
+pandas,Carga CSV (1M filas),3.6647648999933153,-1726.625
+Polars,Filtrado (status='active' & price>100),0.28800020017661154,639.2890625
+pandas,Filtrado (status='active' & price>100),0.1872040000744164,93.76953125
+Polars,Agrupación y agregación (category),0.1338207998778671,26.50390625
+pandas,Agrupación y agregación (category),0.10616620001383126,3.375
